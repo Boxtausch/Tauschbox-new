@@ -1,7 +1,14 @@
 {
   "name": "tauschbox-new",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "start": "serve ."
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.0.12"
   }
 }
